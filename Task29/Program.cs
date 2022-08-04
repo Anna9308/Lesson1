@@ -10,9 +10,4 @@ while (i<8)
     i++;
 }
 
-int l=0;
-while (l<8)
-{
-    Console.WriteLine(arr[l]);
-    l++;
-}
+Console.WriteLine(string.Join(", ", arr));
